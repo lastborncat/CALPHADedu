@@ -1,0 +1,526 @@
+
+================================================================================
+Database: AlCr-00Sub.tdb
+Elements: AL-CR
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlLi-07Hal.tdb
+Elements: AL-LI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlNb-23Fio.tdb
+Elements: AL-NB
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlSi-24Zob-3g.tdb
+Elements: AL-SI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 985, in read_tdb
+    raise e
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 968, in read_tdb
+    tokens = grammar.parseString(command)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\util.py", line 376, in _inner
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\core.py", line 1216, in parse_string
+    raise exc.with_traceback(None)
+pyparsing.exceptions.ParseException: Invalid TDB syntax.
+       PAR  LNTHETA1(FCC_A1,AL:VA),,          +LN(294.414);,,               N 20DIN 
+                    ^, found '('  (at char 972), (line:59, col:15)
+
+================================================================================
+Database: AlTi-92Kat.tdb
+Elements: AL-TI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 319, in _process_typedef
+    raise ValueError(f"The {ordered_phase} phase is not in the database, but is defined by: `TYPE_DEFINTION {typechar} {line}`")
+ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART A2_BCC `
+
+================================================================================
+Database: AlCr-00Sub.tdb
+Elements: AL-CR
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlLi-07Hal.tdb
+Elements: AL-LI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlNb-23Fio.tdb
+Elements: AL-NB
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlSi-24Zob-3g.tdb
+Elements: AL-SI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 985, in read_tdb
+    raise e
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 968, in read_tdb
+    tokens = grammar.parseString(command)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\util.py", line 376, in _inner
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\core.py", line 1216, in parse_string
+    raise exc.with_traceback(None)
+pyparsing.exceptions.ParseException: Invalid TDB syntax.
+       PAR  LNTHETA1(FCC_A1,AL:VA),,          +LN(294.414);,,               N 20DIN 
+                    ^, found '('  (at char 972), (line:59, col:15)
+
+================================================================================
+Database: AlTi-92Kat.tdb
+Elements: AL-TI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 319, in _process_typedef
+    raise ValueError(f"The {ordered_phase} phase is not in the database, but is defined by: `TYPE_DEFINTION {typechar} {line}`")
+ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART A2_BCC `
+
+================================================================================
+Database: AlCr-00Sub.tdb
+Elements: AL-CR
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlLi-07Hal.tdb
+Elements: AL-LI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlNb-23Fio.tdb
+Elements: AL-NB
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlSi-24Zob-3g.tdb
+Elements: AL-SI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 985, in read_tdb
+    raise e
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 968, in read_tdb
+    tokens = grammar.parseString(command)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\util.py", line 376, in _inner
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\core.py", line 1216, in parse_string
+    raise exc.with_traceback(None)
+pyparsing.exceptions.ParseException: Invalid TDB syntax.
+       PAR  LNTHETA1(FCC_A1,AL:VA),,          +LN(294.414);,,               N 20DIN 
+                    ^, found '('  (at char 972), (line:59, col:15)
+
+================================================================================
+Database: AlTi-92Kat.tdb
+Elements: AL-TI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 319, in _process_typedef
+    raise ValueError(f"The {ordered_phase} phase is not in the database, but is defined by: `TYPE_DEFINTION {typechar} {line}`")
+ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART A2_BCC `
+
+================================================================================
+Database: AlCr-00Sub.tdb
+Elements: AL-CR
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlLi-07Hal.tdb
+Elements: AL-LI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlNb-23Fio.tdb
+Elements: AL-NB
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 289, in _process_typedef
+    keyword = expand_keyword(['DISORDERED_PART', 'MAGNETIC'], tokens[3].upper())[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb_keywords.py", line 127, in expand_keyword
+    raise ValueError('{0} does not match {1}'.format(candidate, possible))
+ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']
+
+================================================================================
+Database: AlSi-24Zob-3g.tdb
+Elements: AL-SI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 985, in read_tdb
+    raise e
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 968, in read_tdb
+    tokens = grammar.parseString(command)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\util.py", line 376, in _inner
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Roaming\Python\Python312\site-packages\pyparsing\core.py", line 1216, in parse_string
+    raise exc.with_traceback(None)
+pyparsing.exceptions.ParseException: Invalid TDB syntax.
+       PAR  LNTHETA1(FCC_A1,AL:VA),,          +LN(294.414);,,               N 20DIN 
+                    ^, found '('  (at char 972), (line:59, col:15)
+
+================================================================================
+Database: AlTi-92Kat.tdb
+Elements: AL-TI
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 146, in test_database
+    database = Database(str(path))
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 115, in __new__
+    return cls.from_file(fname, fmt=fmt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\database.py", line 224, in from_file
+    format_registry[fmt.lower()].read(dbf, fd)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 991, in read_tdb
+    _process_typedef(dbf, typechar, line)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\io\tdb.py", line 319, in _process_typedef
+    raise ValueError(f"The {ordered_phase} phase is not in the database, but is defined by: `TYPE_DEFINTION {typechar} {line}`")
+ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART A2_BCC `
+
+================================================================================
+Database: BaO-05Zho-mod.tdb
+Elements: BA-O
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 170, in test_database
+    binplot(
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\compat_api.py", line 53, in binplot
+    strategy.do_map()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 268, in do_map
+    self.generate_automatic_starting_points()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\binary_strategy.py", line 97, in generate_automatic_starting_points
+    step.do_map()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 271, in do_map
+    finished = self.iterate()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 240, in iterate
+    self._start_zpf_line()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 470, in _start_zpf_line
+    direction_data = self._determine_start_direction(self._current_node, self._exits[self._exit_index], self._exit_dirs[self._exit_index])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\step_strategy.py", line 123, in _determine_start_direction
+    self._add_starting_point_at_last_condition(exit_point.global_conditions, proposed_direction)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\step_strategy.py", line 165, in _add_starting_point_at_last_condition
+    success = self.add_nodes_from_conditions(new_conds, axis_dir, True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 176, in add_nodes_from_conditions
+    point = point_from_equilibrium(self.dbf, self.components, self.phases, conditions, models=self.models, phase_record_factory=self.phase_records)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\starting_points.py", line 33, in point_from_equilibrium
+    chemical_potentials = np.squeeze(wks.eq.MU)
+                                     ^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\workspace.py", line 282, in __get__
+    default_value = obj.recompute()
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\workspace.py", line 363, in recompute
+    return _solve_eq_at_conditions(properties, self.phase_record_factory, grid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pycalphad/core/eqsolver.pyx", line 242, in pycalphad.core.eqsolver._solve_eq_at_conditions
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\solver.py", line 168, in solve
+    converged = spec.run_loop(state, 1000)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pycalphad/core/minimizer.pyx", line 394, in pycalphad.core.minimizer.SystemSpecification.run_loop
+  File "pycalphad/core/minimizer.pyx", line 404, in pycalphad.core.minimizer.SystemSpecification.run_loop
+  File "pycalphad/core/minimizer.pyx", line 838, in pycalphad.core.minimizer.solve_state
+  File "pycalphad/core/minimizer.pyx", line 689, in pycalphad.core.minimizer.construct_equilibrium_system
+  File "pycalphad/core/minimizer.pyx", line 268, in pycalphad.core.minimizer.fill_equilibrium_system
+  File "pycalphad/core/minimizer.pyx", line 145, in pycalphad.core.minimizer.write_row_fixed_mole_fraction
+ZeroDivisionError: float division
+
+================================================================================
+Database: BaO-05Zho.tdb
+Elements: BA-O
+Traceback (most recent call last):
+  File "D:\CALPHADedu\src\batch_test.py", line 170, in test_database
+    binplot(
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\compat_api.py", line 53, in binplot
+    strategy.do_map()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 268, in do_map
+    self.generate_automatic_starting_points()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\binary_strategy.py", line 97, in generate_automatic_starting_points
+    step.do_map()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 271, in do_map
+    finished = self.iterate()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 240, in iterate
+    self._start_zpf_line()
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 470, in _start_zpf_line
+    direction_data = self._determine_start_direction(self._current_node, self._exits[self._exit_index], self._exit_dirs[self._exit_index])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\step_strategy.py", line 123, in _determine_start_direction
+    self._add_starting_point_at_last_condition(exit_point.global_conditions, proposed_direction)
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\step_strategy.py", line 165, in _add_starting_point_at_last_condition
+    success = self.add_nodes_from_conditions(new_conds, axis_dir, True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\strategy\strategy_base.py", line 176, in add_nodes_from_conditions
+    point = point_from_equilibrium(self.dbf, self.components, self.phases, conditions, models=self.models, phase_record_factory=self.phase_records)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\mapping\starting_points.py", line 33, in point_from_equilibrium
+    chemical_potentials = np.squeeze(wks.eq.MU)
+                                     ^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\workspace.py", line 282, in __get__
+    default_value = obj.recompute()
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\workspace.py", line 363, in recompute
+    return _solve_eq_at_conditions(properties, self.phase_record_factory, grid,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pycalphad/core/eqsolver.pyx", line 242, in pycalphad.core.eqsolver._solve_eq_at_conditions
+  File "C:\Users\Maximinilaist\AppData\Local\Programs\Python\Python312\Lib\site-packages\pycalphad\core\solver.py", line 168, in solve
+    converged = spec.run_loop(state, 1000)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pycalphad/core/minimizer.pyx", line 394, in pycalphad.core.minimizer.SystemSpecification.run_loop
+  File "pycalphad/core/minimizer.pyx", line 404, in pycalphad.core.minimizer.SystemSpecification.run_loop
+  File "pycalphad/core/minimizer.pyx", line 838, in pycalphad.core.minimizer.solve_state
+  File "pycalphad/core/minimizer.pyx", line 689, in pycalphad.core.minimizer.construct_equilibrium_system
+  File "pycalphad/core/minimizer.pyx", line 268, in pycalphad.core.minimizer.fill_equilibrium_system
+  File "pycalphad/core/minimizer.pyx", line 145, in pycalphad.core.minimizer.write_row_fixed_mole_fraction
+ZeroDivisionError: float division
