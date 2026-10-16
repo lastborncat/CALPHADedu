@@ -1,0 +1,3 @@
+Error: "ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART BCC_A2 `"
+Databases: EuMg-08Tao.tdb, CeLa-10Guo.tdb, AlTi-92Kat.tdb
+Fix: Commented out the TYPE_DEFINITION because no such phase existed.

@@ -33,10 +33,11 @@ COLUMNS = [
 def load_index():
     with open(INDEX_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
-        
+    
+    #takes both list and dictionary although the structure of my current index is dictionary    
     if isinstance(data, list):
         entries = data
-    elif isinstance(data, dict):
+    elif isinstance(data, dict): #I have eno idea
         entries = next(
             (
                 value for value in data.values()
@@ -209,7 +210,7 @@ def main():
     successful = {
         row["database"].lower()
         for row in results
-        if row.get("status") == "SUCCESS"
+        if row.get("status") == ("SUCCESS")
     }
     
     #most recent result for each file

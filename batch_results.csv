@@ -184,7 +184,7 @@ AlCo-22Wan.tdb,AL-CO,SUCCESS,42.18,
 AlCo-95Dup.tdb,AL-CO,SUCCESS,48.39,
 AlCo-98Dup-LB.tdb,AL-CO,SUCCESS,48.63,
 AlCo-98Dup-orig.tdb,AL-CO,SUCCESS,27.49,
-AlCr-00Sub.tdb,AL-CR,FAILED,0.72,"ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']"
+AlCr-00Sub.tdb,AL-CR,FAILED,0.9,"ValueError: C_S does not match ['DISORDERED_PART', 'MAGNETIC']"
 AlCr-07Tok.tdb,AL-CR,SUCCESS,27.75,
 AlCr-08Lia.tdb,AL-CR,SUCCESS,39.06,
 AlCr-13Hu.tdb,AL-CR,SUCCESS,42.23,
@@ -243,7 +243,7 @@ AlLa-01Cac.tdb,AL-LA,SUCCESS,53.1,
 AlLa-06Zho.tdb,AL-LA,SUCCESS,43.0,
 AlLa-18Lia.tdb,AL-LA,SUCCESS,25.01,
 AlLi-07Hal-condensed.tdb,AL-LI,SUCCESS,75.87,
-AlLi-07Hal.tdb,AL-LI,FAILED,1.63,"ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']"
+AlLi-07Hal.tdb,AL-LI,FAILED,2.05,"ValueError: COMP_SETS does not match ['DISORDERED_PART', 'MAGNETIC']"
 AlLi-11Guo.tdb,AL-LI,SUCCESS,8.98,
 AlLi-20Lon.tdb,AL-LI,SUCCESS,62.83,
 AlLi-23Cui-reg2.tdb,AL-LI,SUCCESS,65.5,
@@ -283,7 +283,7 @@ AlNa-06Zha.tdb,AL-NA,SUCCESS,7.23,
 AlNb-08Zhu.tdb,AL-NB,SUCCESS,43.55,
 AlNb-09Wit.tdb,AL-NB,SUCCESS,41.75,
 AlNb-15He.tdb,AL-NB,SUCCESS,28.58,
-AlNb-23Fio.tdb,AL-NB,FAILED,6.53,"ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']"
+AlNb-23Fio.tdb,AL-NB,FAILED,7.23,"ValueError: NEVER does not match ['DISORDERED_PART', 'MAGNETIC']"
 AlNb-97Ser-LB.tdb,AL-NB,SUCCESS,35.18,
 AlNb-98Sau.tdb,AL-NB,SUCCESS,46.16,
 AlNd-01Cac.tdb,AL-ND,SUCCESS,34.27,
@@ -344,7 +344,7 @@ AlSc-99Cac-LB.tdb,AL-SC,SUCCESS,22.71,
 AlSe-19Shi.tdb,AL-SE,SUCCESS,6.44,
 AlSi-12Tan.tdb,AL-SI,SUCCESS,6.24,
 AlSi-14Lia.tdb,AL-SI,SUCCESS,9.35,
-AlSi-24Zob-3g.tdb,AL-SI,FAILED,0.2,"ParseException: Invalid TDB syntax.
+AlSi-24Zob-3g.tdb,AL-SI,FAILED,0.19,"ParseException: Invalid TDB syntax.
        PAR  LNTHETA1(FCC_A1,AL:VA),,          +LN(294.414);,,               N 20DIN 
                     ^, found '('  (at char 972), (line:59, col:15)"
 AlSi-86Mey.tdb,AL-SI,SUCCESS,6.53,
@@ -370,7 +370,7 @@ AlTh-10Li.tdb,AL-TH,SUCCESS,44.53,
 AlTi-00Ohn.tdb,AL-TI,SUCCESS,370.07,
 AlTi-08Wit.tdb,AL-TI,SUCCESS,76.74,
 AlTi-24Lia.tdb,AL-TI,SUCCESS,164.92,
-AlTi-92Kat.tdb,AL-TI,FAILED,0.91,"ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART A2_BCC `"
+AlTi-92Kat.tdb,AL-TI,SUCCESS,25.99,
 AlTi-98Sau-LB.tdb,AL-TI,SUCCESS,31.33,
 AlTl-89McA.tdb,AL-TL,SUCCESS,10.51,
 AlU-08Wan.tdb,AL-U,SUCCESS,17.76,
@@ -510,8 +510,8 @@ BaGa-13Li.tdb,BA-GA,SUCCESS,18.38,
 BaGe-19Ben.tdb,BA-GE,SUCCESS,27.49,
 BaMg-13Ren.tdb,BA-MG,SUCCESS,25.68,
 BaNi-07Sha.tdb,BA-NI,SUCCESS,25.43,
-BaO-05Zho-mod.tdb,BA-O,FAILED,1.74,ZeroDivisionError: float division
-BaO-05Zho.tdb,BA-O,FAILED,1.21,ZeroDivisionError: float division
+BaO-05Zho-mod.tdb,BA-O,FAILED,8.14,ZeroDivisionError: float division
+BaO-05Zho.tdb,BA-O,FAILED,1.64,ZeroDivisionError: float division
 BaO-95Zim.tdb,BA-O,SUCCESS,26.09,
 BaPb-07Idb.tdb,BA-PB,SUCCESS,20.1,
 BaRu-95Che-LB.tdb,BA-RU,SUCCESS,9.29,
@@ -636,7 +636,7 @@ CaB-07Sha.tdb,B-CA,SUCCESS,20.88,
 CaBr-92Sta.tdb,BR-CA,SUCCESS,19.13,
 CaCe-07Ham.tdb,CA-CE,SUCCESS,6.33,
 CaCe-08Zha.tdb,CA-CE,SUCCESS,39.64,
-CaCl-92Sta.tdb,CA-CL,FAILED,18.49,ZeroDivisionError: float division
+CaCl-92Sta.tdb,CA-CL,FAILED,19.21,ZeroDivisionError: float division
 CaCu-96Ris-LB.tdb,CA-CU,SUCCESS,15.97,
 CaCu-97Ais.tdb,CA-CU,SUCCESS,23.56,
 CaF-92Sta.tdb,CA-F,SUCCESS,16.57,
@@ -663,7 +663,7 @@ CaNa-03Zha.tdb,CA-NA,SUCCESS,12.51,
 CaNi-05Isl.tdb,CA-NI,SUCCESS,39.61,
 CaO-18Lia.tdb,CA-O,SUCCESS,13.38,
 CaO-20Def-3g.tdb,CA-O,SUCCESS,22.85,
-CaO-23Abd-3g.tdb,CA-O,FAILED,19.46,ZeroDivisionError: float division
+CaO-23Abd-3g.tdb,CA-O,FAILED,26.19,ZeroDivisionError: float division
 CaO-96Sel.tdb,CA-O,SUCCESS,26.9,
 CaPb-04Car.tdb,CA-PB,SUCCESS,20.76,
 CaPb-08Idb.tdb,CA-PB,SUCCESS,17.77,
@@ -737,7 +737,7 @@ CeGa-19Liu.tdb,CE-GA,SUCCESS,21.21,
 CeGd-10Gro.tdb,CE-GD,SUCCESS,5.36,
 CeH-24Han-mod1.tdb,CE-H,SUCCESS,15.83,
 CeH-24Han-mod2.tdb,CE-H,SUCCESS,11.62,
-CeLa-10Guo.tdb,CE-LA,FAILED,0.56,"ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART BCC_A2 `"
+CeLa-10Guo.tdb,CE-LA,SUCCESS,5.49,
 CeLa-19Yan.tdb,CE-LA,SUCCESS,5.61,
 CeMg-08Guo.tdb,CE-MG,SUCCESS,26.21,
 CeMg-08Zha.tdb,CE-MG,SUCCESS,25.11,
@@ -774,20 +774,20 @@ CeY-08Dju.tdb,CE-Y,SUCCESS,10.7,
 CeY-08Guo.tdb,CE-Y,SUCCESS,6.27,
 CeZn-08Wan.tdb,CE-ZN,SUCCESS,41.17,
 CeZr-14Mat.tdb,CE-ZR,SUCCESS,14.11,
-CH-97SUB.tdb,C-H,FAILED,7.16,ZeroDivisionError: float division
-CN-97SUB.tdb,C-N,FAILED,8.33,ZeroDivisionError: float division
+CH-97SUB.tdb,C-H,FAILED,7.66,ZeroDivisionError: float division
+CN-97SUB.tdb,C-N,FAILED,9.44,ZeroDivisionError: float division
 CO-97SUB.tdb,C-O,SUCCESS,44.64,
 CoB-02Du-LB.tdb,B-CO,SUCCESS,22.32,
 CoC-87Fer-LB.tdb,C-CO,SUCCESS,12.94,
 CoCr-01Oik.tdb,CO-CR,SUCCESS,16.02,
 CoCr-02Oik.tdb,CO-CR,SUCCESS,10.66,
-CoCr-16Li.tdb,CO-CR,FAILED,1.06,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoCr-16Li.tdb,CO-CR,FAILED,1.4,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoCr-18Cac.tdb,CO-CR,SUCCESS,18.18,
-CoCr-19Wan.tdb,CO-CR,FAILED,1.07,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoCr-19Wan.tdb,CO-CR,FAILED,1.25,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoCr-20Ost.tdb,CO-CR,SUCCESS,20.02,
 CoCr-20Zha.tdb,CO-CR,SUCCESS,24.85,
 CoCr-23Sha.tdb,CO-CR,SUCCESS,26.52,
-CoCr-24Per.tdb,CO-CR,FAILED,0.98,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoCr-24Per.tdb,CO-CR,FAILED,1.12,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoCr-88Jan.tdb,CO-CR,SUCCESS,11.19,
 CoCr-97Kus-LB.tdb,CO-CR,SUCCESS,17.25,
 CoCu-00Kub-LB.tdb,CO-CU,SUCCESS,10.55,
@@ -830,9 +830,9 @@ CoNb-20Zho.tdb,CO-NB,SUCCESS,44.53,
 CoNb-22Wei.tdb,CO-NB,SUCCESS,44.06,
 CoNb-98Har-LB.tdb,CO-NB,SUCCESS,29.61,
 CoNd-07Liu.tdb,CO-ND,SUCCESS,68.19,
-CoNi-24Per.tdb,CO-NI,FAILED,0.86,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoNi-24Per.tdb,CO-NI,FAILED,1.15,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoNi-87Fer-LB.tdb,CO-NI,SUCCESS,8.5,
-CoO-03Che-LB.tdb,CO-O,FAILED,27.56,ZeroDivisionError: float division
+CoO-03Che-LB.tdb,CO-O,FAILED,33.15,ZeroDivisionError: float division
 CoPd-04Fra-LB.tdb,CO-PD,SUCCESS,34.35,
 CoPd-99Gho.tdb,CO-PD,SUCCESS,17.67,
 CoPr-99Du.tdb,CO-PR,SUCCESS,60.0,
@@ -841,7 +841,7 @@ CoPt-11Kim.tdb,CO-PT,SUCCESS,93.95,
 CoPt-90Spe-LB.tdb,CO-PT,SUCCESS,17.87,
 CoRe-14Liu.tdb,CO-RE,SUCCESS,9.58,
 CoRe-18Guo.tdb,CO-RE,SUCCESS,9.7,
-CoRe-24Per.tdb,CO-RE,FAILED,0.86,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoRe-24Per.tdb,CO-RE,FAILED,2.56,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoRe-24Shi.tdb,CO-RE,SUCCESS,10.06,
 CoRu-14Liu.tdb,CO-RU,SUCCESS,10.15,
 CoSb-08Zha.tdb,CO-SB,SUCCESS,23.37,
@@ -860,7 +860,7 @@ CoSn-19Jed.tdb,CO-SN,SUCCESS,25.77,
 CoSr-18Hal.tdb,CO-SR,SUCCESS,17.54,
 CoTa-02Har.tdb,CO-TA,SUCCESS,40.7,
 CoTa-14Shi.tdb,CO-TA,SUCCESS,68.22,
-CoTa-19Wan.tdb,CO-TA,FAILED,1.47,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoTa-19Wan.tdb,CO-TA,FAILED,1.93,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoTa-19Zho.tdb,CO-TA,SUCCESS,137.69,
 CoTa-22Wan.tdb,CO-TA,SUCCESS,48.39,
 CoTa-99Liu-LB.tdb,CO-TA,SUCCESS,45.52,
@@ -877,7 +877,7 @@ CoV-03Bra-LB.tdb,CO-V,SUCCESS,249.4,
 CoV-04Hua.tdb,CO-V,SUCCESS,27.03,
 CoV-15Wan.tdb,CO-V,SUCCESS,25.03,
 CoV-20Wan-mod.tdb,CO-V,SUCCESS,101.74,
-CoV-20Wan.tdb,CO-V,FAILED,1.0,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoV-20Wan.tdb,CO-V,FAILED,1.72,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoV-24Sun.tdb,CO-V,SUCCESS,21.43,
 CoW-05Mar.tdb,CO-W,SUCCESS,17.45,
 CoW-05Sat.tdb,CO-W,SUCCESS,19.15,
@@ -886,7 +886,7 @@ CoW-17Wan.tdb,CO-W,SUCCESS,68.84,
 CoW-18Cac.tdb,CO-W,SUCCESS,52.03,
 CoW-18Liu.tdb,CO-W,SUCCESS,14.97,
 CoW-19Kap.tdb,CO-W,SUCCESS,14.81,
-CoW-19Wan.tdb,CO-W,FAILED,1.02,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CoW-19Wan.tdb,CO-W,FAILED,1.36,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CoW-85Gab.tdb,CO-W,SUCCESS,18.41,
 CoW-89Fer-LB.tdb,CO-W,SUCCESS,16.16,
 CoY-04Du-LB.tdb,CO-Y,SUCCESS,86.86,
@@ -954,7 +954,7 @@ CrNi-06Hal.tdb,CR-NI,SUCCESS,28.26,
 CrNi-16Tan.tdb,CR-NI,SUCCESS,75.0,
 CrNi-20Zha.tdb,CR-NI,SUCCESS,20.99,
 CrNi-21Hao-3g.tdb,CR-NI,SUCCESS,12.88,
-CrNi-24Per.tdb,CR-NI,FAILED,0.96,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CrNi-24Per.tdb,CR-NI,FAILED,1.23,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CrNi-86Din.tdb,CR-NI,SUCCESS,13.69,
 CrNi-92Lee-LB.tdb,CR-NI,SUCCESS,44.82,
 CrO-06Pov.tdb,CR-O,SUCCESS,159.46,
@@ -967,9 +967,9 @@ CrPd-00Gho-LB.tdb,CR-PD,SUCCESS,20.12,
 CrPt-01Oik.tdb,CR-PT,SUCCESS,19.66,
 CrPt-09Pre.tdb,CR-PT,SUCCESS,103.97,
 CrPt-98Spe-LB.tdb,CR-PT,SUCCESS,28.2,
-CrRe-10Pal.tdb,CR-RE,FAILED,0.91,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CrRe-10Pal.tdb,CR-RE,FAILED,1.14,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CrRe-18Guo.tdb,CR-RE,SUCCESS,15.38,
-CrRe-24Per.tdb,CR-RE,FAILED,0.85,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+CrRe-24Per.tdb,CR-RE,FAILED,1.05,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 CrRe-98Hua-newsigma.tdb,CR-RE,SUCCESS,11.08,
 CrRe-98Hua-oldsigma.tdb,CR-RE,SUCCESS,12.23,
 CrRu-05Che-LB.tdb,CR-RU,SUCCESS,9.91,
@@ -1089,9 +1089,9 @@ CuNi-07Tur.tdb,CU-NI,SUCCESS,4.69,
 CuNi-87Jan.tdb,CU-NI,SUCCESS,5.34,
 CuNi-89Sri.tdb,CU-NI,SUCCESS,4.86,
 CuNi-92Mey-LB.tdb,CU-NI,SUCCESS,4.73,
-CuO-03Hal-LB.tdb,CU-O,FAILED,10.26,ZeroDivisionError: float division
+CuO-03Hal-LB.tdb,CU-O,FAILED,13.68,ZeroDivisionError: float division
 CuO-05Sch.tdb,CU-O,SUCCESS,30.83,
-CuO-14Mag.tdb,CU-O,FAILED,7.17,ZeroDivisionError: float division
+CuO-14Mag.tdb,CU-O,FAILED,2.28,ZeroDivisionError: float division
 CuO-92Bou.tdb,CU-O,SUCCESS,40.0,
 CuO-94Hal.tdb,CU-O,SUCCESS,23.45,
 CuP-01Mie.tdb,CU-P,SUCCESS,23.82,
@@ -1110,8 +1110,8 @@ CuPt-06Abe.tdb,CU-PT,SUCCESS,69.99,
 CuPu-09Wan.tdb,CU-PU,SUCCESS,43.06,
 CuRh-00Pri.tdb,CU-RH,SUCCESS,17.65,
 CuS-07Lee.tdb,CU-S,SUCCESS,59.23,
-CuS-92Sun-LB.tdb,CU-S,FAILED,5.57,ZeroDivisionError: float division
-CuS-92Sun-newS.tdb,CU-S,FAILED,4.96,ZeroDivisionError: float division
+CuS-92Sun-LB.tdb,CU-S,FAILED,6.92,ZeroDivisionError: float division
+CuS-92Sun-newS.tdb,CU-S,FAILED,5.23,ZeroDivisionError: float division
 CuSb-00Liu-LB.tdb,CU-SB,SUCCESS,17.19,
 CuSb-09Gie.tdb,CU-SB,SUCCESS,25.8,
 CuSb-23Liu.tdb,CU-SB,SUCCESS,15.1,
@@ -1233,7 +1233,7 @@ ErZn-19Fre.tdb,ER-ZN,SUCCESS,60.08,
 ErZr-10Jou.tdb,ER-ZR,SUCCESS,10.45,
 EuGa-20Li.tdb,EU-GA,SUCCESS,26.2,
 EuIn-11Gao.tdb,EU-IN,SUCCESS,40.13,
-EuMg-08Tao.tdb,EU-MG,FAILED,0.48,"ValueError: The B2_BCC phase is not in the database, but is defined by: `TYPE_DEFINTION O GES AMEND_PHASE_DESCRIPTION B2_BCC DIS_PART BCC_A2 `"
+EuMg-08Tao.tdb,EU-MG,SUCCESS,15.55,
 EuNi-16Kar.tdb,EU-NI,SUCCESS,23.23,
 EuO-07Zin.tdb,EU-O,SUCCESS,12.59,
 EuPb-13Wan.tdb,EU-PB,SUCCESS,43.05,
@@ -1280,7 +1280,7 @@ FeMg-98Tib-LB.tdb,FE-MG,SUCCESS,9.74,
 FeMn-04Wit.tdb,FE-MN,SUCCESS,10.48,
 FeMn-19Big-3g.tdb,FE-MN,SUCCESS,9.83,
 FeMn-23Jac.tdb,FE-MN,SUCCESS,8.99,
-FeMn-23Wal-3g.tdb,FE-MN,FAILED,1.52,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
+FeMn-23Wal-3g.tdb,FE-MN,FAILED,1.9,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
 FeMn-87Hua.tdb,FE-MN,SUCCESS,10.21,
 FeMn-89Hua-LB.tdb,FE-MN,SUCCESS,10.79,
 FeMn-89Hua-modified.tdb,FE-MN,SUCCESS,46.48,
@@ -1867,7 +1867,7 @@ MgY-03Fab-LB.tdb,MG-Y,SUCCESS,45.34,
 MgY-07Guo.tdb,MG-Y,SUCCESS,27.68,
 MgY-07Men.tdb,MG-Y,SUCCESS,31.89,
 MgY-20Wu.tdb,MG-Y,SUCCESS,36.31,
-MgY-98Luk.tdb,MG-Y,FAILED,0.73,IndexError: tuple index out of range
+MgY-98Luk.tdb,MG-Y,FAILED,0.79,IndexError: tuple index out of range
 MgYb-06Guo-LB.tdb,MG-YB,SUCCESS,7.96,
 MgZn-10Niu.tdb,MG-ZN,SUCCESS,34.15,
 MgZn-14Yua.tdb,MG-ZN,SUCCESS,44.24,
@@ -1933,7 +1933,7 @@ MnTe-96Mam.tdb,MN-TE,SUCCESS,10.36,
 MnTi-09Che.tdb,MN-TI,SUCCESS,34.02,
 MnTi-16Kha.tdb,MN-TI,SUCCESS,47.7,
 MnTi-22Zhe.tdb,MN-TI,SUCCESS,44.3,
-MnTi-23Wal-3g.tdb,MN-TI,FAILED,1.79,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
+MnTi-23Wal-3g.tdb,MN-TI,FAILED,1.95,"ValueError: STATUS does not match ['DISORDERED_PART', 'MAGNETIC']"
 MnTi-98Sau-LB.tdb,MN-TI,SUCCESS,41.34,
 MnTm-24Ye.tdb,MN-TM,SUCCESS,25.46,
 MnU-08Liu.tdb,MN-U,SUCCESS,20.48,
@@ -1976,8 +1976,8 @@ MoPt-24Fio.tdb,MO-PT,SUCCESS,44.19,
 MoRe-08Mao-oldsigma.tdb,MO-RE,SUCCESS,11.15,
 MoRe-09Far.tdb,MO-RE,SUCCESS,19.16,
 MoRe-10Yan.tdb,MO-RE,SUCCESS,17.42,
-MoRe-13Mat-edited.tdb,MO-RE,FAILED,1.28,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
-MoRe-13Mat-orig.tdb,MO-RE,FAILED,1.81,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
+MoRe-13Mat-edited.tdb,MO-RE,FAILED,1.55,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
+MoRe-13Mat-orig.tdb,MO-RE,FAILED,2.11,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
 MoRe-20Yen.tdb,MO-RE,SUCCESS,18.9,
 MoRu-00Oh-oldsigma.tdb,MO-RU,SUCCESS,9.9,
 MoRu-00Oh.tdb,MO-RU,SUCCESS,8.9,
@@ -2153,7 +2153,7 @@ NiPr-05Hua.tdb,NI-PR,SUCCESS,43.95,
 NiPr-15Rah.tdb,NI-PR,SUCCESS,36.08,
 NiPt-09Lu.tdb,NI-PT,SUCCESS,88.0,
 NiRe-12Yaq.tdb,NI-RE,SUCCESS,5.85,
-NiRe-24Per.tdb,NI-RE,FAILED,0.82,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
+NiRe-24Per.tdb,NI-RE,FAILED,1.0,"ValueError: NEVER_DIS does not match ['DISORDERED_PART', 'MAGNETIC']"
 NiRe-24Shi.tdb,NI-RE,SUCCESS,6.92,
 NiRe-99Hua.tdb,NI-RE,SUCCESS,5.55,
 NiRh-24Hal.tdb,NI-RH,SUCCESS,5.32,
@@ -2221,7 +2221,7 @@ NiU-09Wan.tdb,NI-U,SUCCESS,58.15,
 NiV-01Wat.tdb,NI-V,SUCCESS,37.57,
 NiV-10Kab.tdb,NI-V,SUCCESS,20.85,
 NiV-18Pan.tdb,NI-V,SUCCESS,22.86,
-NiV-19Noo-full.tdb,NI-V,FAILED,1.39,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
+NiV-19Noo-full.tdb,NI-V,FAILED,1.45,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
 NiV-19Noo-simple.tdb,NI-V,SUCCESS,49.59,
 NiV-19Zou.tdb,NI-V,SUCCESS,25.72,
 NiV-98Kor-LB.tdb,NI-V,SUCCESS,33.52,
@@ -2377,7 +2377,7 @@ ReTa-99Cui.tdb,RE-TA,SUCCESS,15.36,
 ReTi-12Zac.tdb,RE-TI,SUCCESS,26.51,
 ReU-11Ber.tdb,RE-U,SUCCESS,15.89,
 ReW-00Liu-LB.tdb,RE-W,SUCCESS,18.29,
-ReW-02Fri.tdb,RE-W,FAILED,0.88,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
+ReW-02Fri.tdb,RE-W,FAILED,1.01,"ValueError: NEVER_DIS_PAR does not match ['DISORDERED_PART', 'MAGNETIC']"
 ReY-10Zac.tdb,RE-Y,SUCCESS,12.07,
 ReZr-13Liu.tdb,RE-ZR,SUCCESS,29.39,
 ReZr-23Che.tdb,RE-ZR,SUCCESS,39.8,
@@ -2473,7 +2473,7 @@ SiN-03Ma-LB.tdb,N-SI,SUCCESS,30.37,
 SiN-18Sri.tdb,N-SI,SUCCESS,26.15,
 SiN-92Hil.tdb,N-SI,SUCCESS,23.65,
 SiO-04Sch.tdb,O-SI,SUCCESS,33.28,
-SiO-20Baj-3g.tdb,O-SI,FAILED,0.78,"ParseException: Invalid TDB syntax.
+SiO-20Baj-3g.tdb,O-SI,FAILED,0.96,"ParseException: Invalid TDB syntax.
   PAR  LNTHETA1(SIO2_L,SIO2),,           +LN(105.58);,,                N 20BAJ 
                ^, found '('  (at char 6225), (line:237, col:15)"
 SiO-92Hal.tdb,O-SI,SUCCESS,39.58,
@@ -2519,7 +2519,7 @@ SiY-19Xu.tdb,SI-Y,SUCCESS,27.61,
 SiY-19Zha.tdb,SI-Y,SUCCESS,30.96,
 SiY-98Luk.tdb,SI-Y,SUCCESS,29.02,
 SiYb-05Bru.tdb,SI-YB,SUCCESS,28.17,
-SiZn-24Zob-3g.tdb,SI-ZN,FAILED,0.12,"ParseException: Invalid TDB syntax.
+SiZn-24Zob-3g.tdb,SI-ZN,FAILED,0.15,"ParseException: Invalid TDB syntax.
   PAR  LNTHETA1(DIAMOND_A4,SI),,         +LN(615.45);,,                N 23BAJ 
                ^, found '('  (at char 1058), (line:66, col:15)"
 SiZn-86Mey.tdb,SI-ZN,SUCCESS,5.68,
@@ -2634,8 +2634,8 @@ TiN-91Vah.tdb,N-TI,SUCCESS,22.48,
 TiN-96Jon-LB.tdb,N-TI,SUCCESS,17.66,
 TiN-96Zen.tdb,N-TI,SUCCESS,20.36,
 TiO-07Can.tdb,O-TI,SUCCESS,128.05,
-TiO-15Ham.tdb,O-TI,FAILED,21.26,ZeroDivisionError: float division
-TiO-17Ila.tdb,O-TI,FAILED,21.68,ZeroDivisionError: float division
+TiO-15Ham.tdb,O-TI,FAILED,10.38,ZeroDivisionError: float division
+TiO-17Ila.tdb,O-TI,FAILED,10.98,ZeroDivisionError: float division
 TiO-17Yan.tdb,O-TI,SUCCESS,52.12,
 TiO-94Lee.tdb,O-TI,SUCCESS,74.35,
 TiP-06Oht.tdb,P-TI,SUCCESS,43.4,
@@ -2647,7 +2647,7 @@ TiU-21Mo.tdb,TI-U,SUCCESS,16.38,
 TiV-02Gho-LB.tdb,TI-V,SUCCESS,33.0,
 TiV-16Yan.tdb,TI-V,SUCCESS,26.62,
 TiV-18Hu.tdb,TI-V,SUCCESS,22.75,
-TiV-20Hu-3g.tdb,TI-V,FAILED,0.29,"ParseException: Invalid TDB syntax.
+TiV-20Hu-3g.tdb,TI-V,FAILED,0.16,"ParseException: Invalid TDB syntax.
   PAR  LNTHETA1(HCP_A3,TI:VA),,          +LN(269.66);,,                N 20HU 
                ^, found '('  (at char 1106), (line:63, col:15)"
 TiV-90Sau.tdb,TI-V,SUCCESS,43.94,
@@ -2683,7 +2683,7 @@ UO-02Che.tdb,O-U,SUCCESS,58.67,
 UO-02Gue.tdb,O-U,SUCCESS,147.91,
 UO-04Che.tdb,O-U,SUCCESS,60.54,
 UO-08Bar.tdb,O-U,SUCCESS,58.0,
-UO-11Gue.tdb,O-U,FAILED,48.07,ZeroDivisionError: float division
+UO-11Gue.tdb,O-U,FAILED,38.52,ZeroDivisionError: float division
 UO-23Jia.tdb,O-U,SUCCESS,66.76,
 UV-11Ber.tdb,U-V,SUCCESS,41.79,
 UW-08Wan.tdb,U-W,SUCCESS,15.67,
@@ -2707,8 +2707,8 @@ VC-91Hua-LB.tdb,C-V,SUCCESS,14.18,
 VH-08Uki.tdb,H-V,SUCCESS,14.68,
 VN-91Oht-LB.tdb,N-V,SUCCESS,9.5,
 VN-97Du.tdb,N-V,SUCCESS,9.96,
-VO-15Yan-ver1.tdb,O-V,FAILED,2.52,AssertionError: 
-VO-15Yan-ver2.tdb,O-V,FAILED,2.7,AssertionError: 
+VO-15Yan-ver1.tdb,O-V,FAILED,2.23,AssertionError: 
+VO-15Yan-ver2.tdb,O-V,FAILED,2.13,AssertionError: 
 VW-05Bra-LB.tdb,V-W,SUCCESS,17.44,
 VW-05Hua.tdb,V-W,SUCCESS,12.12,
 VY-10Cha.tdb,V-Y,SUCCESS,19.34,
@@ -2720,7 +2720,7 @@ VZr-16Cui-1.tdb,V-ZR,SUCCESS,33.6,
 VZr-16Cui-2.tdb,V-ZR,SUCCESS,28.15,
 VZr-98Kor-LB.tdb,V-ZR,SUCCESS,29.05,
 WB-95Dus-LB.tdb,B-W,SUCCESS,40.4,
-WC-22He-3g.tdb,C-W,FAILED,0.18,"ParseException: Invalid TDB syntax.
+WC-22He-3g.tdb,C-W,FAILED,0.16,"ParseException: Invalid TDB syntax.
   PAR  LNTHETA1(GRAPHITE_A9,C),,         +LN(1953.2502);,,             N 18BIG 
                ^, found '('  (at char 1213), (line:74, col:15)"
 WC-86Gus.tdb,C-W,SUCCESS,19.55,
@@ -2742,9 +2742,9 @@ YO-04Che.tdb,O-Y,SUCCESS,191.27,
 YO-05Che.tdb,O-Y,SUCCESS,197.35,
 YO-07Dju.tdb,O-Y,SUCCESS,230.54,
 YO-19Xu.tdb,O-Y,SUCCESS,173.39,
-YO-96Gro.tdb,O-Y,FAILED,7.54,ZeroDivisionError: float division
-YO-98Swa-LB.tdb,O-Y,FAILED,3.72,ZeroDivisionError: float division
-YO-98Swa-orig.tdb,O-Y,FAILED,3.33,ZeroDivisionError: float division
+YO-96Gro.tdb,O-Y,FAILED,7.95,ZeroDivisionError: float division
+YO-98Swa-LB.tdb,O-Y,FAILED,4.25,ZeroDivisionError: float division
+YO-98Swa-orig.tdb,O-Y,FAILED,3.23,ZeroDivisionError: float division
 YZn-06Sha.tdb,Y-ZN,SUCCESS,43.32,
 YZn-08Liu.tdb,Y-ZN,SUCCESS,42.91,
 YZr-09He.tdb,Y-ZR,SUCCESS,13.51,
@@ -2756,7 +2756,7 @@ ZnC-05Ham-LB.tdb,C-ZN,SUCCESS,11.03,
 ZnP-09Tu.tdb,P-ZN,SUCCESS,27.7,
 ZnP-16Liu.tdb,P-ZN,SUCCESS,20.14,
 ZnP-19Gha.tdb,P-ZN,SUCCESS,24.65,
-ZnS-17Gua.tdb,S-ZN,FAILED,2.38,AssertionError: 
+ZnS-17Gua.tdb,S-ZN,FAILED,2.5,AssertionError: 
 ZnSe-14Che.tdb,SE-ZN,SUCCESS,22.66,
 ZnTe-97Feu-LB.tdb,TE-ZN,SUCCESS,17.01,
 ZnZr-06Arr-first.tdb,ZN-ZR,SUCCESS,33.97,
